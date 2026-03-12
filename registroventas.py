@@ -38,7 +38,7 @@ def registerventas():
                 try:
                     amount_sales = int(input("Amount : "))
                     if amount_sales > 0:
-                        break
+                        amount_bol = False
                     else:
                         print("Error: the quantity is only positive")
                 except ValueError:
